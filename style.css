@@ -1,0 +1,50 @@
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    padding: 20px; 
+    background: #f0f0f0; 
+}
+.post { 
+    width: 320px; 
+    background: #fff; 
+    border: 1px solid #ccc; 
+}
+.header, .footer { 
+    padding: 10px; 
+}
+.header img {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    vertical-align: middle; 
+}
+.header .user { 
+    margin-left: 10px; 
+    font-weight: bold; 
+    vertical-align: middle; 
+}
+.image img { 
+    width: 100%; 
+    display: block; 
+}
+.actions { 
+    padding: 10px; 
+    font-size: 18px; 
+}
+.actions span { 
+    margin-right: 10px; 
+    cursor: pointer; 
+}
+.likes, .caption { 
+    padding: 0 10px 10px; 
+    font-size: 14px; 
+}
+.likes { 
+    font-weight: bold; 
+}
+.caption .user { 
+    font-weight: bold; 
+    margin-right: 5px; 
+}
